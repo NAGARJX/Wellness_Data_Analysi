@@ -1,0 +1,5 @@
+print(f'Sleep Day Dataset has {sleep_day_df.Id.nunique()} unique users')
+print(f'Hourly Steps Dataset has {hourly_steps_df.Id.nunique()} unique users')
+print(f'Daily Activity Dataset has {daily_activity_df.Id.nunique()} unique users')
+print(f'Hourly Calories Dataset has {hourly_calories_df.Id.nunique()} unique users')
+print(f'Weight Dataset has {weight_df.Id.nunique()} unique users')

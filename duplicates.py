@@ -1,0 +1,5 @@
+print(f'Sleep day data set has {sleep_day_df.duplicated().sum()} duplicates')
+print(f'Hourly Steps data set has {hourly_steps_df.duplicated().sum()} duplicates')
+print(f'Daily Activity data set has {daily_activity_df.duplicated().sum()} duplicates')
+print(f'Hourly Calories data set has {hourly_calories_df.duplicated().sum()} duplicates')
+print(f'Weight data set has {weight_df.duplicated().sum()} duplicates')
